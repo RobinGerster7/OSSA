@@ -1,4 +1,4 @@
-# Combined Video
+# Unsupervised One-Shot Style Adaptation for Visual-Optical and Thermal Infrared Object Detection
 
 This repository contains the official implementation of our paper [link to be provided]. 
 
@@ -25,6 +25,7 @@ cd mmdetection
 pip install -v -e .
 ```
 
+Move `resnet_ossa.py` from `custom/` to `mmdetection/mmdet/models/backbones`. Then, update the `__init__.py` in the same directory to include `from .resnet_ossa import ResNetOSSA` and add `"ResNetOSSA"` to `__all__`.
 
 
 
@@ -90,6 +91,7 @@ python ./tools/sim2coco.py --ann_dir ../datasets/VOC2012/Annotations --output ..
 ```
 
 #### Finalizing
+Rename VOC2012 to sim10k and delete the VOC2012/Annotations directory.
 
 ## Training OSSA
 For sim10k->cityscapes adaptation use:

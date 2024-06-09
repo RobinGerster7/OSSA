@@ -1,0 +1,6 @@
+datasets/
+tmp/
+mmdetection/
+checkpoints/
+.idea/
+work_dirs/
