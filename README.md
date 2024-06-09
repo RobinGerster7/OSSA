@@ -106,3 +106,19 @@ python ./mmdetection/tools/train.py ./configs/prototype_constructors/frcnn_ossa_
 python ./mmdetection/tools/train.py ./configs/experiments/frcnn_ossa_city2foggy.py
 ```
 
+### Testing OSSA
+Below is an example of how to test OSSA given weights.
+```bash
+python mmdetection/tools/test.py configs/experiments/frcnn_ossa_city2foggy.py city2foggy.pth
+```
+
+## Model Weights
+
+Below is the table with links to download the trained models and their performance metrics:
+
+| Dataset Adaptation             | Model Weights                                                                                     | mAP50 |
+|--------------------------------|---------------------------------------------------------------------------------------------------|-------|
+| Sim10k -> Cityscapes           | [Google Drive Link](https://drive.google.com/file/d/1H_2v7j-Q7fZBrsjXk_8P44JYuflNuikg/view?usp=sharing)         | 53.1  |
+| Foggy Cityscapes -> Cityscapes | [Google Drive Link](https://drive.google.com/file/d/1UsrPd6wC9eltL4PJLnP3rLH0mw9X7LNM/view?usp=sharing)         | 40.3  |
+| M3FD Visual -> Thermal         | [Google Drive Link](https://drive.google.com/file/d/1HYqW_L5PMN-42FTk1baClHmx8DsPxH0A/view?usp=sharing)               | 35.2  |
+
