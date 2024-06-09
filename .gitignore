@@ -4,3 +4,8 @@ mmdetection/
 checkpoints/
 .idea/
 work_dirs/
+
+# Don't ignore configs/datasets
+!configs/
+configs/*
+!configs/datasets/
