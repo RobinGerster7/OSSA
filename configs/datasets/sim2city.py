@@ -58,23 +58,6 @@ val_dataloader = dict(
         backend_args=backend_args))
 
 
-shot_dataloader = dict(
-    batch_size=batch_size,
-    num_workers=num_workers,
-    persistent_workers=True,
-    drop_last=False,
-    sampler=dict(type='DefaultSampler', shuffle=False),
-    dataset=dict(
-        type=dataset_type,
-        data_root=data_root,
-        metainfo=metainfo,
-        ann_file='../cityscapes/annotations/instancesonly_filtered_gtFine_train.json',
-        data_prefix=dict(img='../cityscapes/leftImg8bit/train/'),
-        test_mode=True,
-        pipeline=test_pipeline,
-        backend_args=backend_args))
-
-
 val_evaluator = dict(
     type='CocoMetric',
     ann_file=data_root + '../cityscapes/annotations/instancesonly_filtered_gtFine_val.json',
