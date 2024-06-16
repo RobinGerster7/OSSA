@@ -3,7 +3,7 @@
 This repository contains the official implementation of our paper [link to be provided]. 
 
 ![Combined Video](demo.gif)
-*The video shows the detections of a Faster R-CNN with a ResNet-50 backbone trained on the Sim10k dataset and tested on the Cityscapes dataset. The baseline version is displayed on the left, while OSSA is shown on the right. We see that OSSA is more effective at detecting cars.*
+*The video shows the detections of a FRCNN with a ResNet-50 backbone trained on the Sim10k dataset and tested on the Cityscapes dataset. The baseline version is displayed on the left, while OSSA is shown on the right. We see that OSSA is more effective at detecting cars.*
 
 
 
@@ -119,6 +119,6 @@ Below is the table with links to download the trained models and their performan
 | Dataset Adaptation             | Model Weights                                                                                     | mAP50 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|-------|
 | Sim10k -> Cityscapes           | [Google Drive Link](https://drive.google.com/file/d/1H_2v7j-Q7fZBrsjXk_8P44JYuflNuikg/view?usp=sharing)         | 53.1  |
-| Foggy Cityscapes -> Cityscapes | [Google Drive Link](https://drive.google.com/file/d/1UsrPd6wC9eltL4PJLnP3rLH0mw9X7LNM/view?usp=sharing)         | 40.3  |
+| Cityscapes -> Foggy Cityscapes | [Google Drive Link](https://drive.google.com/file/d/1UsrPd6wC9eltL4PJLnP3rLH0mw9X7LNM/view?usp=sharing)         | 40.3  |
 | M3FD Visual -> Thermal         | [Google Drive Link](https://drive.google.com/file/d/1HYqW_L5PMN-42FTk1baClHmx8DsPxH0A/view?usp=sharing)               | 35.2  |
 
