@@ -2,7 +2,8 @@
 
 This repository contains the official implementation of our paper [link to be provided]. 
 
-![Combined Video](demo.gif)
+![combined_video](https://github.com/RobinGerster7/OSSA/assets/164496870/ee853980-e7a4-48ff-9800-126bd8d75913)
+
 *The video shows the detections of a FRCNN with a ResNet-50 backbone trained on the Sim10k dataset and tested on the Cityscapes dataset. The baseline version is displayed on the left, while OSSA is shown on the right. We see that OSSA is more effective at detecting cars.*
 
 
