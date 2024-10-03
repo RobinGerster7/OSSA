@@ -1,6 +1,6 @@
 # Unsupervised One-Shot Style Adaptation for Visual-Optical and Thermal Infrared Object Detection
 
-This repository contains the official implementation of our paper [256677](https://arxiv.org/abs/2410.00900). 
+This repository contains the official implementation of our paper [OSSA: Unsupervised One-Shot Style Adaptation](https://arxiv.org/abs/2410.00900). 
 
 ![combined_video](https://github.com/RobinGerster7/OSSA/assets/164496870/ee853980-e7a4-48ff-9800-126bd8d75913)
 
